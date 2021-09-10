@@ -1,0 +1,77 @@
+void main() {
+
+ var abc =           "                            Marksheet";
+   print                 (abc);
+  
+  var a   =          "         SIR SYED UNIVERSITY OF ENGINEERING & TECHNOLOGY";
+  print  (a);
+  
+  var b   = "student name : Syed Haris";
+  print  (b);
+  var c  =  "father name  : Syed Nasim";
+  print  (c);
+  
+  
+  String total_no_of_subjects="5";
+  print("total no of subjects : "+total_no_of_subjects);
+  
+  var total_marks=500;
+  var dsp = 90;
+  var pdc = 85;
+  var ccn =  80;
+  var mp_mc= 95;
+  var a_i = 98;
+  
+  var obtain_marks = dsp + pdc + ccn + mp_mc + a_i;
+  
+  print("S.No    Subjects    Max_marks     Obtained_Marks");
+  
+  print("01        DSP          100              ${dsp} ");
+  print("02        PDC          100              ${dsp} ");
+  print("03        CCN          100              ${dsp} ");
+  print("04        MP MC        100              ${dsp} ");
+  print("04        AI           100              ${dsp} ");
+  
+ print ("                       ${total_marks}             ${obtain_marks}");
+  
+  
+  num percentage =  (obtain_marks/total_marks)*100;
+  print ("Your Percentage is :  ${percentage}");
+  
+  if(percentage>=80 && percentage<=100)
+  {
+    print("You have A+ Grade");
+  }
+  
+  else if(percentage>=70 && percentage <=79)
+  {
+    print("You have A Grade");
+  }
+  
+    else if(percentage>=60 && percentage <=69)
+  {
+    print("You have B Grade");
+  }
+    
+    else if(percentage>=50 && percentage <=59)
+  {
+    print("You have C Grade");
+  }
+  
+    else if(percentage>=40 && percentage <=49)
+  {
+    print("You have D Grade");
+  }
+ 
+    else if(percentage>=33 && percentage <=39)
+  {
+    print("You have E Grade");
+  }
+  
+  else {
+    print("You Failed");
+  }
+}
+
+  
+  
